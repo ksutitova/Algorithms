@@ -5,7 +5,7 @@ public class IsPositiveNumber {
   Проверить 555, 0 и -555.
    */
 
-    public static boolean isPositiveNumberAlgorithm(int a) {
+    public boolean isPositiveNumberAlgorithm(int a) {
         if (a >= 0) {
             return true;
         }

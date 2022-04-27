@@ -8,7 +8,7 @@ public class BiggerValue {
      */
 
 
-    public static int biggerValueAlgorithm(int a, int b){
+    public int biggerValueAlgorithm(int a, int b){
         return Math.max(a,b);
     }
 
