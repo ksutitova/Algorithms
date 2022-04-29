@@ -1,6 +1,6 @@
 public class MaxOfThree {
 
-    public static int returnMaxOfThree(int x, int y, int z){
+    public int returnMaxOfThree(int x, int y, int z){
         int max;
         if( x > y) {
             max = x;

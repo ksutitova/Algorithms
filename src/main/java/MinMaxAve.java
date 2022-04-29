@@ -10,7 +10,7 @@ public class MinMaxAve {
      * ({1, 2, 3, 4, 5, 6, 7, 8}, 2, 6) →  {3, 7, 5}
      */
 
-    public static double[] minMaxAveAlgorithm(int[] array, int x, int y) {
+    public double[] minMaxAveAlgorithm(int[] array, int x, int y) {
         double aver = 0;
         double max = Integer.MIN_VALUE;
         double min = Integer.MAX_VALUE;
