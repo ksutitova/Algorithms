@@ -10,7 +10,7 @@ public class Algorithm2MinMaxAverage {
      */
 
 
-    public static double[] minMaxAverageAlgorithm2(int[] array, int x, int y) {
+    public double[] minMaxAverageAlgorithm2(int[] array, int x, int y) {
 
         double sum = 0;
         double max = Integer.MIN_VALUE;

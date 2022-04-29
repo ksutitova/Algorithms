@@ -7,7 +7,7 @@ public class GetMultipleOfThreeAndFive {
      * Он не удовлетворяет ни одному из вышеуказанных условий, а затем возвращает "-1".
      */
 
-    public static String getMultipleOfThreeAndFiveAlgorithm(int m) {
+    public String getMultipleOfThreeAndFiveAlgorithm(int m) {
         if (m != 0) {
             if (m % 3 == 0 && m % 5 == 0) {
                 return "Хорошее число";

@@ -6,7 +6,7 @@ public class AreNumbersEqual {
      * 1, если первое число больше второго
      */
 
-    public static int areNumbersEqualAlgorithm(int a, int b) {
+    public int areNumbersEqualAlgorithm(int a, int b) {
         if (a == b) {
             return 0;
         } else if (a < b) {
