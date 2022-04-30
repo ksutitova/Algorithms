@@ -27,7 +27,7 @@ public class SumArrayTest {
         int expectedResult = -10;
 
         SumArray sumArray = new SumArray();
-        int actualResult = sumArray.SumArrayAlgorithm(array);
+        int actualResult = sumArray.sumArrayAlgorithm(array);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -40,7 +40,7 @@ public class SumArrayTest {
         int expectedResult = 0;
 
         SumArray sumArray = new SumArray();
-        int actualResult = sumArray.SumArrayAlgorithm(array);
+        int actualResult = sumArray.sumArrayAlgorithm(array);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
