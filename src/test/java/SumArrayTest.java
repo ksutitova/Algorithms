@@ -9,7 +9,7 @@ public class SumArrayTest {
 
     @Order(1)
     @Test
-    public void SumArrayPozitivTest() {
+    public void sumArrayPozitivTest() {
         int[]array = {0, 1, 2, 3, 4, 5};
         int expectedResult = 15;
 

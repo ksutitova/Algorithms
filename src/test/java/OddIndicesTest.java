@@ -6,7 +6,7 @@ public class OddIndicesTest {
 
     @Order(1)
     @Test
-    public void OddIndicesTestHappy() {
+    public void oddIndicesTestHappy() {
         int[] input = new int[]{-45, 590, 234, 985, 12, 68};
         int[] expectedResult = {590, 985, 68};
 

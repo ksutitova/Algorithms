@@ -6,7 +6,7 @@ public class IsPositiveNumberTest {
 
     @Order(1)
     @Test
-    public void IsPositiveNumberTestHappy() {
+    public void isPositiveNumberTestHappy() {
         int a = 555;
         boolean expectedResult = true;
 
