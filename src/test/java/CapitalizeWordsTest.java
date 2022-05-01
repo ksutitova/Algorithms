@@ -27,4 +27,39 @@ public class CapitalizeWordsTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
+
+
+    @Test
+    public void testCapitalizeWordsPozitivThree() {
+        String str = "      какая чудесная погода! ";
+        String expectedResult = "Какая Чудесная Погода!";
+
+        CapitalizeWords capitalizeWords = new CapitalizeWords();
+        String actualResult = capitalizeWords.capitalizeWordsAlgorithm(str);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testCapitalizeWordsPozitivFour() {
+        String str = "      привет андрей! ";
+        String expectedResult = "Привет Андрей!";
+
+        CapitalizeWords capitalizeWords = new CapitalizeWords();
+        String actualResult = capitalizeWords.capitalizeWordsAlgorithm(str);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void testCapitalizeWordsNeg() {
+        String str = " ";
+        String expectedResult = "";
+
+        CapitalizeWords capitalizeWords = new CapitalizeWords();
+        String actualResult = capitalizeWords.capitalizeWordsAlgorithm(str);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
 }
