@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class CapitalizeWordsTest {
+public class CapitalizeWordsTest {
+
+
 }
