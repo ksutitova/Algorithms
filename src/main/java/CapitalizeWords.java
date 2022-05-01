@@ -1,6 +1,6 @@
 public class CapitalizeWords {
 
-    public static String capitalizeWords(String sentence) {
+    public static String capitalizeWordsAlgorithm(String sentence) {
 
         if (sentence != null) {
             sentence = sentence.trim();
