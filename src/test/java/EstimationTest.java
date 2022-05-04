@@ -69,5 +69,17 @@ public class EstimationTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
+    @Order(4)
+    @Test
+    public void testEstimationNeg() {
+        int n = 10;
+        String expectedResult = "Fail";
+
+        Estimation estimation = new Estimation();
+        String actualResult = estimation.estimationAlgorithm(n);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
 
 }
